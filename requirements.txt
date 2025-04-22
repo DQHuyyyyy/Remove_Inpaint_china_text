@@ -1,5 +1,5 @@
-
-torch
+# note: library for window system
+torch==1.12.0+cpu torchvision==0.13.0+cpu torchaudio==0.12.0 -f https://download.pytorch.org/whl/cpu/torch_stable.html
 torchvision
 tensorflow
 pytorch-lightning==1.2.9
@@ -7,8 +7,8 @@ opencv-python-headless
 scikit-image
 scikit-learn
 kornia==0.5.0
-albumentations==0.5.2
-numpy
+albumentations
+install numpy==1.26.4
 pandas
 matplotlib
 pyyaml
@@ -20,7 +20,7 @@ tabulate
 streamlit
 streamlit-drawable-canvas
 altair<5
-paddleocr
+paddlepaddle -i https://pypi.tuna.tsinghua.edu.cn/simple
 webdataset
 wldhx.yadisk-direct
 hydra-core==1.1.0
